@@ -1,0 +1,490 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(225, 255, 255);
+    padding: 0px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bolder;
+    font-size: xxx-large;
+    background-image: url('/images/ocean.webp');
+    background-position: center;
+    background-size: cover;
+    padding: 100px; 
+    color: rgb(37, 69, 83);
+}
+header{
+    background-color: rgb(178, 145, 218);
+    padding: 10px;
+}
+.header{
+    background-color: rgb(255, 137, 235);
+    color: rgb(187, 49, 187);
+    border-radius: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    color: rgb(255, 212, 254);
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li a:hover{
+    background-color: rgb(20, 23, 85);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.favoriteAnimal{
+    width: 100px;
+    height: 100px;
+}
+.favoriteAnimal:hover{
+    border: 10px solid;
+    border-color: rgb(255, 137, 235);
+    width: 80px;
+    height: 80px;
+}
+section{
+    background-color: white;
+    padding: 10px;
+}
+main{
+    text-align: center;
+    padding: 0px;
+}
+.paragraph{
+    color: rgb(66, 157, 157);
+    font-weight: bold;
+    padding: 10px;
+}
+.started{
+    background-color: rgb(177, 255, 177);
+    padding: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(0, 185, 0);
+}
+button{
+    border: none;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+    appearance: none;
+}
+button:hover{
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(178, 145, 218);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+ 
+
+
+
+
+
+
+table, th{
+text-align: left;
+border: 5px solid rgb(237, 142, 200);
+font: bolder;
+color: rgb(255, 121, 48);
+background-color: white;
+align-self: center;
+}
+th > span{
+    margin: .25rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+h2{
+    color: rgb(178, 145, 218);
+}
+.Ok{
+    padding: 0px;
+    background-color: rgb(105, 210, 224);
+    color: rgb(11, 97, 108);
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: rgb(105, 210, 224);
+    cursor: pointer;
+    font: bolder;
+}
+.Rank{
+    color: rgb(37, 69, 83);
+    padding: 10px;
+    font: bolder;
+}
+.shark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.shark.open {
+    display: flex;
+}
+.shark__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 255, 0.2);
+}
+.shark__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: arrow;
+    border: 20px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.dolphin {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.dolphin.open {
+    display: flex;
+}
+.dolphin__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 255, 0.2);
+}
+.dolphin__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: arrow;
+    border: 20px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.turtle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.turtle.open {
+    display: flex;
+}
+.turtle__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 255, 0.2);
+}
+.turtle__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: arrow;
+    border: 20px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.whale {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.whale.open {
+    display: flex;
+}
+.whale__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 255, 0.2);
+}
+.whale__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: arrow;
+    border: 20px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.jellyfish {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.jellyfish.open {
+    display: flex;
+}
+.jellyfish__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 255, 0.2);
+}
+.jellyfish__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: arrow;
+    border: 20px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.clownfish {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.clownfish.open {
+    display: flex;
+}
+.clownfish__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 255, 0.2);
+}
+.clownfish__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: arrow;
+    border: 20px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.seahorse {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.seahorse.open {
+    display: flex;
+}
+.seahorse__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 255, 0.2);
+}
+.seahorse__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: arrow;
+    border: 20px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.eel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.eel.open {
+    display: flex;
+}
+.eel__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 255, 0.2);
+}
+.eel__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: arrow;
+    border: 20px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.orca {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.orca.open {
+    display: flex;
+}
+.orca__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 255, 0.2);
+}
+.orca__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: arrow;
+    border: 20px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+.narwhal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.narwhal.open {
+    display: flex;
+}
+.narwhal__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 255, 0.2);
+}
+.narwhal__content {
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: arrow;
+    border: 20px solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+#testimonials-container {
+    width: 400px;
+    margin: 0 auto;
+}
+.testimonial-card {
+    padding: 1rem;
+    box-shadow: 0 0 16px 8px rgba(0,0,0, 0.1);
+    width: 100%;
+    border-radius: .5rem;
+    line-height: 1.4;
+}
+.testimonial-card img {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    width: 8rem;
+}
+.testimonial-card h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.testimonial-card date {
+    text-align: right;
+    display: block;
+    font-style: italic;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+nav button {
+    cursor: pointer;
+    width: 6rem;
+    background-color:steelblue;
+    color: white;
+    padding: .5rem 1rem;
+}
+nav button:hover {
+    background-color:royalblue;
+}
